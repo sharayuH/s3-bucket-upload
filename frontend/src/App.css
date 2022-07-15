@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  /* background-color: rgb(16, 15, 15); */
+  font-family: "Montserrat", sans-serif;
 }
 
 form {
