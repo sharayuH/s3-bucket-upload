@@ -16,7 +16,7 @@ input {
 }
 
 .displayimage {
-    height: 350px;
+    height: 200px;
     width: auto;
 }
 
@@ -34,6 +34,10 @@ h1 {
   color: white;
   align-items: center;
   /* margin-left: 80px; */
+}
+
+#buttonstyle:hover { 
+    background-color: black;
 }
 
 .topnav {

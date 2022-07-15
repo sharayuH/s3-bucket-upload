@@ -49,12 +49,13 @@ function App() {
 
     <div id="app">
       <h2>Upload your image to S3</h2>
+      <h3 style={{color: '#333'}}>Classify the images based on car present in the image or not present!</h3>
 
       <form onSubmit={submit}>
         <input onChange={fileSelected} type="file" accept="image/*"></input>
         <img class="displayimage" src={images} alt="" />
-        <input value={description} onChange={e => setDescription(e.target.value)} type="text"></input>
-        <button id="buttonstyle" type="submit">Submit</button>
+        <input placeholder="Write a description" value={description} onChange={e => setDescription(e.target.value)} type="text"></input>
+        <button id="buttonstyle" type="submit" onClick={<h3>Image Uploaded to S3!</h3>}>Submit</button>
       </form>
 
       {/* { images.map( image => (
